@@ -19,7 +19,7 @@ Cross-platform vulnerability scanner for Kali Linux, Termux & Windows
 ### Kali Linux / Termux
 ```bash
 # 1. Clone the repository
-   git clone https://github.com/giri5628/ghost-scanner.git
+   git clone https://github.com/gireeshsec/ghost-scanner.git
 
 # 2. Go to folder
   cd ghost-scanner
