@@ -25,10 +25,12 @@ Cross-platform vulnerability scanner for Kali Linux, Termux & Windows
   cd ghost-scanner
 
 # 3. Install dependencies
+  python3 -m venv ghost-env
+  source ghost-env/bin/activate
   pip install requests python-whois dnspython
 
 # 4. Run the tool
-  python3 ghost.py example.com
+     python3 ghost.py 
 ```
 # ⚠️ Legal Disclaimer
    For authorized security testing and educational purposes only.  
