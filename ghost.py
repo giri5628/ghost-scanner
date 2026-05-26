@@ -667,6 +667,7 @@ def is_ip(addr):
         return False
 
 def main():
+    global os 
     import argparse
 
     parser = argparse.ArgumentParser(description="GHOST - Vulnerability Scanner & OSINT Tool")
@@ -685,12 +686,11 @@ def main():
             platform_text = f"{cyan('Linux/macOS')} - Cross-Platform Support"
 
         print(f" {bold('GHOST Scanner')} {cyan(f'v{__version__}')} - Initial Release")
-        print(f" {dim('Features:')} IP+Geo, WHOIS, Subdomains, Port Scan, SSL/TLS,")
-        print(f" {dim(' ')} Headers, DNS Security, Wayback, File Exposure, HTML Report")
+        print(f" {dim('Features:')} IP+Geo, WHOIS, Subdomains, Port Scan, SSL/TLS, Headers, DNS Security, Wayback, File Exposure, HTML Report")
         print(f" {dim('Python:')} {sys.version.split()[0]}")
         print(f" {dim('Platform:')} {platform_text}")
         print(f" {dim('Developer:')} {bold('Gireesh G')}")
-        print(f" {dim('GitHub:')} https://github.com/gireeshg/ghost")
+        print(f" {dim('GitHub:')} https://github.com/gireeshsec/ghost-scanner")
         print(f" {dim('License:')} MIT - Educational Use Only\n")
         sys.exit(0)
 
